@@ -1,0 +1,5 @@
+nombre = input("INGRESE SU NOMBRE COMPLETO: ")
+print(nombre.upper())
+print(nombre.lower())
+nombre = nombre.replace(" ", "")
+print(len(nombre))
